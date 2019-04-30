@@ -1,0 +1,14 @@
+<!--pages/movieDetail/movieDetail.wxml-->
+<view class='a'>
+ <image  src='{{movie_Detail.img}}' class='movie_img'></image>
+ <text  class='movie_name'>{{movie_Detail.t}}</text>
+    <view class='b'>
+      
+      <text >主演:{{movie_Detail.actors}}</text>
+      <text >导演:{{movie_Detail.dN}}</text>
+      <text >类型:{{movie_Detail.movieType}}</text>
+      <text >{{movie_Detail.versions[0].version}} {{movie_Detail.versions[1].version}} {{movie_Detail.versions[2].version}}</text>
+
+    </view>
+
+</view>

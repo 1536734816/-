@@ -1,0 +1,23 @@
+<!--pages/Navigation/Navigation.wxml-->
+<import src='/pages/muban/mb.wxml'/>
+<view>
+  <swiper indicator-color='blank' indicator-dots>
+    <swiper-item>
+    <image src='/img/fl4.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+    <image src='/img/fl4_1.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+    <image src='/img/xyr.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+    <image src='/img/xyr_1.jpg'></image>
+    </swiper-item>
+  </swiper>
+  <block wx:for='{{movies_top}}' wx:key='{{index}}'>
+    <view>
+      <template is='mb1' data='{{...item}}'/>
+    </view>
+    </block>
+</view>

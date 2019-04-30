@@ -1,0 +1,12 @@
+
+<view wx:for='{{movies_jjsy}}' wx:key='{{index}}'>
+  <view class='movies'>
+    <image class='moviesimg'  src='{{item.image}}'></image>
+    <view  class='movies_detail'> 
+      <text class='movie_name'>{{item.title}}</text>
+      <text class='movie_year'>{{item.releaseDate}}</text>
+      <text class='movie_director'>导演：{{item.director}}</text>
+      <text class='movie_director'>主演:{{item.actor1}}  {{item.actor2}}</text>
+    </view>
+  </view>
+</view>

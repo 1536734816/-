@@ -1,0 +1,13 @@
+<!--pages/dangpianreying/dqry.wxml-->
+<navigator url='/pages/movieDetail/movieDetail?id={{index}}' wx:for='{{movies}}' wx:key='{{index}}'>
+  <view class='movies'>
+    <image class='moviesimg'  src='{{item.img}}'></image>
+    <view  class='movies_detail'> 
+    <text class='movie_name'>{{item.t}}</text>
+    <text class='movie_year'>年份：{{item.year}}</text>
+    <text class='movie_director'>导演：{{item.dN}}</text>
+    </view>
+    <text class='movie_rating'>{{item.r}}</text>
+
+  </view>
+</navigator>

@@ -1,0 +1,12 @@
+<template name='mb1'>
+  <view class='movies'>
+     <image class='moviesimg'  src='{{image}}'></image>
+      <view  class='movies_detail'> 
+        <text class='movie_name'>{{title}}</text>
+        <text class='movie_year'>{{releaseDate}}</text>
+        <text class='movie_director'>导演：{{director}}</text>
+        <text class='movie_director'>主演:{{actor1}}  {{actor2}}</text>
+    
+     </view>
+</view>
+</template>

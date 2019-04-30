@@ -1,0 +1,50 @@
+{
+  "pages": [
+    
+    "pages/index/index",
+    "pages/stpos/stpos",
+    "pages/dangpianreying/dqry",
+    "pages/movieDetail/movieDetail",
+    "pages/jijiangshangying/jjsy",
+    "pages/Navigation/Navigation",
+    "pages/logs/logs",
+    "pages/dixiaTAP/tap"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#8ED145",
+    "navigationBarTitleText": "欢迎",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      
+      {
+        "pagePath": "pages/dangpianreying/dqry",
+        "text": "当前热映",
+        "iconPath": "/img/dqry.jpg",
+        "selectedIconPath": "/img/dqry.jpg"
+      },
+      {
+        "pagePath": "pages/Navigation/Navigation",
+        "text": "Top排行榜",
+        "iconPath": "/img/top.jpg",
+        "selectedIconPath": "/img/top.jpg"
+      },
+      {
+        "pagePath": "pages/jijiangshangying/jjsy",
+        "text": "即将上映",
+        "iconPath": "/img/jjsy.jpg",
+        "selectedIconPath": "/img/jjsy.jpg"
+      },
+      {
+        "pagePath": "pages/stpos/stpos",
+        "text": "我要购票",
+        "iconPath": "/img/gwc.jpg",
+        "selectedIconPath": "/img/gwc.jpg"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

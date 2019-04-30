@@ -1,0 +1,10 @@
+<!--pages/index/index.wxml-->
+<view class='indexContainer'>
+    <image class='home_1' src='{{userInfo.avatarUrl}}'></image>
+    <button bindgetuserinfo='handgetuserinfo'  style='display:{{isShow?"block":"none"}}'   open-type='getUserInfo'>获取用户登录信息</button>
+      <text class='go'>{{userInfo.nickName}}</text>
+    <view catchtap='handleParent'class='go' >
+      
+      <button catchtap='handleClick'>欢迎来到{{msg}}</button>  
+    </view>
+</view>
